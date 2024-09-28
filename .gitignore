@@ -1,0 +1,105 @@
+# Ignore Composer files
+vendor
+composer.lock
+
+
+# Ignore PHPStorm files
+/.idea/*
+*.sublime-*
+*.swp
+.vscode/
+
+# Unit test reports
+TEST*.xml
+tests/
+
+# OS X
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Ignore any backup files
+*.bak
+
+# Ignore any build folder
+/build/*
+
+# Ignore any package files
+*.tgz
+*.tar.gz
+
+# Ignore any PHPStorm metadata
+*.iml
+
+# Ignore any Node.js related files
+node_modules/
+npm-debug.log
+
+# Ignore any SQLite database files
+*.sqlite
+*.sqlite3
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Applications
+*.app
+*.exe
+*.war
+
+# Large media files
+*.mp4
+*.tiff
+*.avi
+*.flv
+*.mov
+*.wmv
+
+# Ignore PHPUnit files
+phpunit
+phpunit*.xml
+/.phpunit.*.cache
+
+
+# Ignore any temporary files
+writable/cache/*
+!writable/cache/index.html
+
+writable/logs/*
+!writable/logs/index.html
+
+writable/session/*
+!writable/session/index.html
+
+writable/uploads/*
+!writable/uploads/index.html
+
+writable/debugbar/*
+!writable/debugbar/.gitkeep
+
+writable/**/*.db
+writable/**/*.sqlite
+
+writable/database/*
+
+/app/Config/Editor/*
+!/app/Config/Editor/index.html
+
+public/uploads/BillFiles/*
+!public/uploads/BillFiles/index.html
+
+public/uploads/files/*
+!public/uploads/files/index.html
+
+php_errors.log
+
+/app/Views/*.tmp
+
+
+
+# Ignore environment-specific settings
+.env
+.vagrant
+.env.*
